@@ -19,7 +19,7 @@ function MovieInfo() {
       }
     }).then((res) => {
       setDetails(res.data);
-      console.log(res.data);
+      // console.log(res.data);
     })
   }, [movie_id]);
 
