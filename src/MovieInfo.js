@@ -21,7 +21,7 @@ function MovieInfo() {
       setDetails(res.data);
       console.log(res.data);
     })
-  }, []);
+  }, [movie_id]);
 
 
   return (
